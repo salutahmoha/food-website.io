@@ -1,0 +1,592 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+    background: var(--main-color);
+    scroll-behavior: smooth;
+}
+:root{
+    --main-color: #3d3c3c;
+    --second-color: #f06f06;
+}
+body.color{
+    --text-color: #fff;
+    --main-color: rgb(153, 85, 85);
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.show {
+    display: block !important;
+  }
+  
+.logoo{
+    display: flex;
+    width: 30px;
+    height: 40px;
+}
+#menu-icon{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.navbar ul{
+    float: right;
+    margin-right: 3px;
+}
+.navbar ul li{
+    display: inline-block;
+    line-height: 40px;
+    margin: 0 1px;
+    
+}
+.navbar ul li a{
+    color: white;
+    font-size: 14px;
+    padding: 7px 3px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+a.active, a:hover{
+    background: var(--second-color);
+    transition: .5s;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    color: white;
+    margin-left: 10px;
+}
+.icons i:hover{
+    color: #f06f06;
+    transform: translateY(-4px);
+    transition: transform .5s;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-left: 7%;
+    margin-right: 15%;
+    align-items: center;
+}
+.sect1 h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.sect1 p{
+    color: wheat;
+}
+.btn{
+    display: flex;
+    gap: 20px;
+    padding-top: 15%;
+    align-items: center;
+}
+
+.btn1{
+    width: 120px;
+    height: 40px;
+    background-color: #f06f06;
+    border-radius: 5px;
+}
+.btn1:hover{
+    transform: translateY(-5px);
+    transition: transform .5s;
+}
+.btn1 p{
+    color: white;
+    background-color: #f06f06;
+    text-align: center;
+    font-size: 15px;
+}
+.btn2{
+    height: 45px;
+    width: 45px;
+    background-color: #f06f06;
+    border: 1px solid #f06f06;
+    border-radius: 50%;
+}
+.btn2:hover{
+    transform: translateY(-5px);
+    transition: transform .5s;
+}
+.btn2 i{
+    background-color: #f06f06;
+}
+.sect2 img{
+    height: 300px;
+    width: 500px;
+}
+.cat1{
+    text-align: center;
+    padding-top: 10%;
+}
+.cat1 .heading{
+    font-size: 15px;
+    color: #f06f06;
+    padding-bottom: 5px;
+}
+.cat1 h1{
+    color: white;
+    padding-bottom: 25px;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+}
+.items h3{
+    color: white;
+}
+.item1 img{
+    width: 300px;
+    height: 200px;
+    border: 2px solid var(--main-color);
+    margin-left: 10%;
+    border-radius: 10px;
+}
+.item2 img{
+    width: 300px;
+    height: 200px;
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+}
+.item3 img{
+    width: 300px;
+    height: 200px;
+    border: 2px solid var(--main-color);
+    margin-right: 15%;
+    border-radius: 10px;
+}
+.history{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.title{
+    margin-bottom: 20px;
+}
+.title p{
+    color: #f06f06;
+}
+.hist2 h1{
+    padding-top: 10px;
+    color: white;
+}
+.hist2 .bbtn{
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    background-color: #f06f06;
+    border: 1px solid #f06f06;
+    border-radius: 10px;
+}
+.hist2 .bbtn:hover{
+    transform: translateY(-5px);
+    transition: .5s;
+}
+.hist2 .bbtn p{
+    background-color: #f06f06;
+}
+.bbtn{
+    margin-top: 30px;
+}
+
+.popular{
+    padding-top: 10%;
+    text-align: center;
+}
+.popular p{
+    color: #f06f06;
+}
+.popular h1{
+    color: white;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 10px;
+}
+.star i{
+    color: #f06f06;
+}
+
+.items h5{
+    color: white;
+    padding-top: 10px;
+}
+.items p{
+    color: wheat;
+}
+.items .pop1{
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    transform: translateY(-7px);
+}
+.items .pop1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+.items .pop2{
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.items .pop2 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+.items .pop3{
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.items .pop3 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+.items .pop4{
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.items .pop4 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+.but{
+    margin-top: 3%;
+    margin-left: 50%;
+    text-align: center;
+    width: 130px;
+    height: 40px;
+    background-color: #f06f06;
+    border-radius: 5px;
+}
+.but:hover{
+    transform: translateY(-5px);
+    transition: .5s;
+}
+.but p{
+    background: #f06f06;
+}
+.testimonials{
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.test1 p{
+    color: #f06f06;
+    margin-bottom: 10px;
+}
+.test2 img{
+    width: 60px;
+    height: 60px;
+}
+.test2 .name p{
+    color: #f06f06;
+}
+.subscriber h1{
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+}
+label{
+    position: relative;
+    margin-left: 35%;
+}
+input[type = "text"]{
+    border: none;
+    width: 300px;
+    height: 40px;
+    padding: 0 16px;
+    color: wheat;
+}
+input::placeholder{
+    color: wheat;
+}
+.bbn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f06f06;
+    color: white;
+    padding: 0 16px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+}
+.bbn:hover{
+    transform: translateY(-5px);
+    transition: .5s;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10%;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 6%;
+}
+.logo{
+    display: block;
+}
+.logo1{
+    display: flex;
+    justify-content: flex-start;
+    width: 80px;
+    height: 50px;
+}
+.logo2 ul{
+    display: flex;
+    gap: 2rem;
+    padding-top: 20px;
+}
+
+.logo2 ul i:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+    transition: .5s;
+}
+.logo .social1{
+    width: 30px;
+    height: 30px;
+    color: #f06f06;
+    border-radius: 5px;
+}
+
+.logo .social2{
+    width: 30px;
+    height: 30px;
+    color: #f06f06;
+    border-radius: 5px;
+}
+.logo .social3{
+    width: 30px;
+    height: 30px;
+    color: #f06f06;
+    border-radius: 5px;
+}
+.logo .social4{
+    width: 30px;
+    height: 30px;
+    color: #f06f06;
+    border-radius: 5px;
+}
+.links h4{
+    color: white;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.order ul{
+    list-style: none;
+}
+.order ul li{
+    color: wheat;
+    gap: 3px;
+    transition: .5s;
+    cursor: pointer;
+}
+.order ul li:hover{
+    color: #f06f06;
+    transform: translateY(-1px);
+}
+
+/*media queries*/
+
+/* desktop and larger screens */
+@media (min-width: 1200px){
+    header{
+        padding: 12px 3%;
+    }
+    section{
+        padding: 40px 3% 50px;
+    }
+    h1{
+        font-size: 40px;
+    }
+}
+
+/*tablet and larger screens*/
+@media (min-width: 768px){
+    h1{
+        font-size: 36px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .item1 img{
+        width: 220px;
+        height: 150px;
+    }
+    .item2 img{
+        width: 220px;
+        height: 150px;
+    }
+    .item3 img{
+        width: 220px;
+        height: 150px;
+    }
+    .items .pop1{
+        width: 150px;
+        height: 300px;
+    }
+    .items .pop2{
+        width: 150px;
+        height: 300px;
+    }
+    .items .pop3{
+        width: 150px;
+        height: 300px;
+    }
+    .items .pop4{
+        width: 150px;
+        height: 300px;
+    }
+    .items .pop1 img{
+        width: 150px;
+        height: 150px;
+    }
+    .items .pop2 img{
+        width: 150px;
+        height: 150px;
+    }
+    .items .pop3 img{
+        width: 150px;
+        height: 150px;
+    }
+    .items .pop4 img{
+        width: 150px;
+        height: 150px;
+    }
+    .hist1 img{
+        width: 420px;
+        height: 350px;
+    }
+    .logoo{
+        display: flex;
+        width: 20px;
+        height: 30px;
+    }
+}
+/*mobile only screen*/
+@media (max-width: 767px){
+    #menu-icon{
+        display: block;
+    }
+    .navbarul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    .navbar ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    .navbar ul li a{
+        font-size: 20px;
+    }
+    a:hover, a.active{
+        background: none;
+        color: #0882e6;
+    }
+    #check:checked ~ .navbarul{
+        left: 0;
+    }
+    .logoo{
+        display: flex;
+        width: 15px;
+        height: 20px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .item1 img{
+        width: 150px;
+        height: 100px;
+    }
+    .item2 img{
+        width: 150px;
+        height: 100px;
+    }
+    .item3 img{
+        width: 150px;
+        height: 100px;
+    }
+    .items .pop1{
+        width: 100px;
+        height: 300px;
+    }
+    .items .pop2{
+        width: 100px;
+        height: 300px;
+    }
+    .items .pop3{
+        width: 100px;
+        height: 300px;
+    }
+    .items .pop4{
+        width: 100px;
+        height: 300px;
+    }
+    .items .pop2{
+        width: 100px;
+        height: 300px;
+    }
+    .items .pop1 img{
+        width: 100px;
+        height: 100px;
+    }
+    .items .pop2 img{
+        width: 100px;
+        height: 100px;
+    }
+    .items .pop3 img{
+        width: 100px;
+        height: 100px;
+    }
+    .items .pop4 img{
+        width: 100px;
+        height: 100px;
+    }
+    .hist1 img{
+        width: 350px;
+        height: 250px;
+    }
+}
